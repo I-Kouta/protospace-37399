@@ -5,8 +5,8 @@
     <p class="card__summary">
       <%= prototype.catch_copy %>
     </p>
-    <% if user_signed_in?  %>
+    
       <%= link_to "by #{prototype.user.user}", "/users/show", class: :card__user %>
-    <% end %>
+    
   </div>
 </div>
