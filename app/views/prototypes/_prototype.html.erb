@@ -6,7 +6,7 @@
       <%= prototype.catch_copy %>
     </p>
     
-      <%= link_to "by #{prototype.user.user}", "/users/show", class: :card__user %>
+      <%= link_to "by #{prototype.user.user}", prototype_path(prototype.id), class: :card__user %>
     
   </div>
 </div>
