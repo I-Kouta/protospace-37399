@@ -5,7 +5,7 @@
       <div class="greeting">
         <span>
           こんにちは、
-          <%= link_to current_user.user, "/users/show", class: :greeting__link %>
+          <%= link_to current_user.user, user_path(current_user.id), class: :greeting__link %>
           さん
         </span>
       </div>
